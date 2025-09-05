@@ -1,0 +1,10 @@
+// You can merge server-side components with client-side components by creating different components for each
+"use client";
+
+export default function ButtonComponent() {
+  return (
+    <button className="px-4 py-2 bg-blue-500 text-white rounded" onClick={() => alert("Button clicked!")}>
+      Click me
+    </button>
+  );
+}
