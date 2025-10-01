@@ -11,6 +11,7 @@ export const Navbar = () => {
         <Link href="/about" className="hover:text-blue-500">About</Link>
         <Link href="/catalog" className="hover:text-blue-500">Catalog</Link>
         <Link href="/contact" className="hover:text-blue-500">Contact</Link>
+        <Link href="/products" className="hover:text-blue-500">Products</Link>
       </div>
       <div></div>
     </nav>
